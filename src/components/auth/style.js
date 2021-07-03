@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container =  styled.div`
-    margin: 8vmax;
+    margin: 5vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,13 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
+    cursor: pointer;
     padding: 10px;
     width: 360px;
     height: 50px;
     border: none;
     border-radius: 8px;
-    background: ${props => props.primary ? "#aaa" : "#0074d9" };;
+    background: ${props => props.primary ? "#aaa" : "#0074d9" };
     color: #fff;
     margin: 10px;
     font-weight: bold;
